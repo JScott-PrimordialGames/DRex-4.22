@@ -1,0 +1,80 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "4.25",
+	"Category": "",
+	"Description": "",
+	"Enterprise": true,
+	"Modules": [
+		{
+			"Name": "DRex",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "Paper2D",
+			"Enabled": true
+		},
+		{
+			"Name": "AutoSettings",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/7f6a777da2724d4a9a3dd551f03a3ad1"
+		},
+		{
+			"Name": "Niagara",
+			"Enabled": true
+		},
+		{
+			"Name": "NiagaraExtras",
+			"Enabled": true
+		},
+		{
+			"Name": "HoudiniNiagara",
+			"Enabled": true
+		},
+		{
+			"Name": "SaveExtension",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/91084f43b68047ac8da6fc88a7467936"
+		},
+		{
+			"Name": "ParticleText",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/0c2d7c278eb645d5b8c3be41e2bc859e"
+		},
+		{
+			"Name": "DialoguePlugin",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/847aa65dc3024a37ae83ed89307524bd"
+		},
+		{
+			"Name": "PhysXVehicles",
+			"Enabled": false
+		},
+		{
+			"Name": "RuntimePhysXCooking",
+			"Enabled": false
+		},
+		{
+			"Name": "BacktraceIntegration",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher: //ue/marketplace/content/66f20b48cf6741e3a47a1fad7d118651",
+			"Token": "your crash submission token",
+			"SymbolsToken": "your symbols token",
+			"Realm": "yourname",
+			"ProjectName": "",
+			"SendReleasePdb": false,
+			"SendDebugPdb": false,
+			"OverrideGlobalReporter": false
+		},
+		{
+			"Name": "LoadingScreenSystemPlugin",
+			"Enabled": true,
+			"MarketplaceURL": "https://indiebrothers.itch.io/ue4-loading-screen-system-plugin-unreal-engine-4"
+		}
+	]
+}
